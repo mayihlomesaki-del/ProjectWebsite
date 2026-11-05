@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160" fill="none">
+  <path d="M92 7 162 47v66l-70 40-70-40V47L92 7Z" stroke="#65CDF5" stroke-width="5"/>
+  <path d="m92 22 56 32v52l-56 32-56-32V54l56-32Z" stroke="#53616B" stroke-width="1.5"/>
+  <circle cx="36" cy="48" r="4" fill="#65CDF5"/>
+  <circle cx="148" cy="48" r="4" fill="#65CDF5"/>
+  <path d="m52 103 41-53 40 53H52Z" fill="#176A91"/>
+  <path d="m78 111 47-61 47 61H78Z" fill="#238CB9"/>
+  <path d="m112 116 40-52 40 52h-80Z" fill="#51C2ED"/>
+  <text x="220" y="76" fill="#F6F7F9" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="3">NEXT LEVEL</text>
+  <path d="M222 93h350" stroke="#65CDF5" stroke-width="3"/>
+  <text x="222" y="121" fill="#65CDF5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="4">GAMING &amp; ESPORTS ARENA</text>
+</svg>

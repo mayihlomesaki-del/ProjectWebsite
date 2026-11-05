@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the PC arena, console lounge, tournaments, and private gaming parties at Next Level Gaming."
+    />
+    <meta name="theme-color" content="#1b1d20" />
+    <title>Arena Overview — Next Level Gaming</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="arena-page arena-interior-page">
+      <header class="arena-header arena-header-inner">
+        <div class="arena-nav-wrap">
+          <a class="arena-brand" href="index.html" aria-label="Next Level Gaming and Esports Arena home">
+            <img src="logo.svg" alt="Next Level Gaming and Esports Arena" />
+          </a>
+          <button class="arena-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="arena-navigation">
+            <span></span><span></span>
+          </button>
+          <nav class="arena-nav" id="arena-navigation" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="overview.html" aria-current="page">Overview</a>
+            <a href="about.html">About us</a>
+            <a href="booking.html">Booking</a>
+          </nav>
+          <a class="arena-button arena-button-nav" href="booking.html">Book your session <span aria-hidden="true">↗</span></a>
+        </div>
+      </header>
+
+      <main>
+        <section class="arena-page-hero overview-hero">
+          <div class="arena-page-hero-image overview-hero-image" aria-hidden="true"></div>
+          <div class="arena-page-hero-content">
+            <p class="arena-eyebrow"><span></span> One arena. All your ways to play.</p>
+            <h1>FIND YOUR<br /><span>GAME.</span></h1>
+            <p>Dial in at a PC, grab a controller, or bring your team to the stage. Your next favorite session starts here.</p>
+            <a class="arena-button" href="booking.html">Book your session <span aria-hidden="true">↗</span></a>
+          </div>
+          <span class="arena-page-hero-index">NEXT LEVEL / 01</span>
+        </section>
+
+        <section class="arena-section overview-offerings">
+          <div class="arena-section-top">
+            <p class="arena-eyebrow"><span></span> Pick your player</p>
+            <span class="arena-index">THE ARENA LINEUP</span>
+          </div>
+          <div class="overview-grid">
+            <article class="overview-card overview-card-pc">
+              <span class="overview-card-number">01 / PC ARENA</span>
+              <div>
+                <h2>LOCK IN.</h2>
+                <p>Settle into a dedicated PC station and get straight into your game, whether you’re warming up or chasing the win.</p>
+                <a class="arena-underlined-link" href="booking.html">Book a PC session <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="overview-card overview-card-console">
+              <span class="overview-card-number">02 / CONSOLE LOUNGE</span>
+              <div>
+                <h2>PASS IT ON.</h2>
+                <p>Pick a controller, call your crew, and make the couch the best seat in the arena.</p>
+                <a class="arena-underlined-link" href="booking.html">Plan a console session <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="overview-card overview-card-events">
+              <span class="overview-card-number">03 / EVENTS</span>
+              <div>
+                <h2>PLAY IT LIVE.</h2>
+                <p>Get in on the energy of community tournaments, watch parties, and big-match nights.</p>
+                <a class="arena-underlined-link" href="booking.html">Ask about events <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="overview-card overview-card-parties">
+              <span class="overview-card-number">04 / PRIVATE PARTIES</span>
+              <div>
+                <h2>YOUR SQUAD. YOUR RULES.</h2>
+                <p>Make your next celebration a team effort with a private gaming session for your group.</p>
+                <a class="arena-underlined-link" href="booking.html">Plan a private party <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="overview-callout">
+          <p class="arena-eyebrow"><span></span> Your seat is waiting</p>
+          <h2>GOOD GAMES<br />START <span>HERE.</span></h2>
+          <a class="arena-button arena-button-dark" href="booking.html">Make a booking enquiry <span aria-hidden="true">↗</span></a>
+        </section>
+      </main>
+
+      <footer class="arena-footer">
+        <a class="arena-brand" href="index.html" aria-label="Next Level Gaming and Esports Arena home">
+          <img src="logo.svg" alt="Next Level Gaming and Esports Arena" />
+        </a>
+        <p>MADE FOR PLAYERS. BUILT FOR EVERYONE.</p>
+        <a href="booking.html">BOOK A SESSION ↗</a>
+        <span class="arena-copyright">© <span class="arena-year"></span> NEXT LEVEL GAMING</span>
+      </footer>
+    </div>
+    <script src="site.js"></script>
+  </body>
+</html>
